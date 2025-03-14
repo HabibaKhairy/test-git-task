@@ -1,25 +1,25 @@
 {
-    "name": "git-test-task",
-    "private": true,
-    "license": "proprietary",
-    "version": "0.0.0",
-    "scripts": {
-        "start": "magento-scripts start",
-        "stop": "magento-scripts stop",
-        "cli": "magento-scripts cli",
-        "logs": "magento-scripts logs",
-        "link": "magento-scripts link",
-        "status": "magento-scripts status",
-        "exec": "magento-scripts exec",
-        "import-db": "magento-scripts import-db",
-        "cleanup": "magento-scripts cleanup",
-        "test": "node --no-deprecation git-test/index.js"
-    },
-    "scandipwa": {
-        "type": "magento"
-    },
-    "dependencies": {
-        "@scandipwa/magento-scripts": "2.3.6",
-        "simple-git": "^3.27.0"
-    }
+  "name": "git-test-task",
+  "private": true,
+  "license": "proprietary",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "magento-scripts start",
+    "stop": "magento-scripts stop",
+    "cli": "magento-scripts cli",
+    "logs": "magento-scripts logs",
+    "link": "magento-scripts link",
+    "status": "magento-scripts status",
+    "exec": "magento-scripts exec",
+    "import-db": "magento-scripts import-db",
+    "cleanup": "magento-scripts cleanup",
+    "test": "node --no-deprecation git-test/index.js"
+  },
+  "scandipwa": {
+    "type": "magento"
+  },
+  "dependencies": {
+    "@scandipwa/magento-scripts": "2.3.7",
+    "simple-git": "^3.27.0"
+  }
 }
